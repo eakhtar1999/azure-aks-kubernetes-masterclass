@@ -52,6 +52,9 @@
 ## Step-03: Cloud Shell - Configure kubectl to connect to AKS Cluster
 - Go to https://shell.azure.com
 ```t
+# check your current account/subscription and set to one where ur account is created
+PS /home/ehtesham> az account set --subscription 'Free Trial'
+PS /home/ehtesham> az account show
 # Template
 az aks get-credentials --resource-group <Resource-Group-Name> --name <Cluster-Name>
 
